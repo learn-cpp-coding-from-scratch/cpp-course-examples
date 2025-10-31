@@ -1,0 +1,3 @@
+add_library(stat statistics.cpp)
+add_executable(internal_declaration__app main.cpp)
+target_link_libraries(internal_declaration__app stat)
