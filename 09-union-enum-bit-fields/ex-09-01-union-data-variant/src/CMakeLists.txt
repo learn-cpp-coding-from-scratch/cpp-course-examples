@@ -1,0 +1,1 @@
+add_executable(union_data_variant__app main.cpp)
