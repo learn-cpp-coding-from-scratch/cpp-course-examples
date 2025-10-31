@@ -1,0 +1,1 @@
+add_executable(union_strict_aliasing__app main.cpp)
