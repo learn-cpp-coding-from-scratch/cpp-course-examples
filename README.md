@@ -1,5 +1,5 @@
 # Описание
-Примеры С++ программ курса "Основы и методологии программирования".
+Примеры демонстрационных программ на языке С++ для курса "Основы и методологии программирования".
 
 # Description
 Examples of C++ programs for the course "Fundamentals and Methodologies of Programming".
