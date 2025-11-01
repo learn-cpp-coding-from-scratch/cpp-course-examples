@@ -1,4 +1,4 @@
-MIT License
+MIT License <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/MIT_Logo_New.svg/330px-MIT_Logo_New.svg.png" width="25%" />
 
 Copyright (c) 2025 [Olga Kazantseva](https://github.com/avelana)
 
