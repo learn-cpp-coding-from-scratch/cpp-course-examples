@@ -1,3 +1,3 @@
-add_library(str_lib str_lib.cpp)
-add_executable(str_lib_app main.cpp)
-target_link_libraries(str_lib_app str_lib)
+add_library(lib-ex-08-02-str str_lib.cpp)
+add_executable(app-ex-08-02-str main.cpp)
+target_link_libraries(app-ex-08-02-str lib-ex-08-02-str)

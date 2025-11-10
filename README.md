@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Description
 Examples of C++ programs for the course "Fundamentals and Methodologies of Programming"
 
@@ -48,3 +49,23 @@ target_link_libraries(... PRIVATE spdlog::spdlog)
 2) Инструкции выбора
 8) Unit-тестирование
 9) Пользовательские типы данных
+=======
+# Описание
+Примеры демонстрационных программ на языке С++ для курса "Основы и методологии программирования".
+
+**Язык программирования:** С++
+
+**Автор:** [Ольга Казанцева](https://github.com/avelana)
+
+# Licence
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/MIT_Logo_New.svg/330px-MIT_Logo_New.svg.png" width="5%" /> MIT License
+
+# Description
+Examples of C++ programs for the course "Fundamentals and Methodologies of Programming".
+
+**Programming language:** C++
+
+**Copyright (c)** 2025 [Olga Kazantseva](https://github.com/avelana)
+
+
+>>>>>>> 6aa32c0546baabe7597bc680b6df7a0780a6dfb0

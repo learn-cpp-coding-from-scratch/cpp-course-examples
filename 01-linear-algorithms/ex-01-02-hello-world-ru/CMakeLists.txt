@@ -1,0 +1,1 @@
+add_executable(app-ex-01-02-hello-ru main.cpp)

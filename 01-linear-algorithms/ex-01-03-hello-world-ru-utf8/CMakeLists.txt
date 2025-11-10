@@ -1,0 +1,1 @@
+add_executable(app-ex-01-03-hello-utf8 main.cpp)

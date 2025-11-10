@@ -1,1 +1,1 @@
-add_executable(union_strict_aliasing__app main.cpp)
+add_executable(app-ex-09-02-strict-aliasing main.cpp)

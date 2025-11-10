@@ -10,6 +10,7 @@ int main() {
 
     std::cout << a.toString() << ' ' 
          << b.toString() << '\n'; 
+         
     NaturalNumber num{};
 
     const int N = 10;

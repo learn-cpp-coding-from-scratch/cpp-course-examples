@@ -1,3 +1,3 @@
-add_library(variant Variant.cpp)
-add_executable(union_data_variant_app main.cpp)
-target_link_libraries(union_data_variant_app variant)
+add_library(lib-ex-09-01-variant Variant.cpp)
+add_executable(app-ex-09-01-variant main.cpp)
+target_link_libraries(app-ex-09-01-variant lib-ex-09-01-variant)

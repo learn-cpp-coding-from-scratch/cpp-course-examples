@@ -1,0 +1,1 @@
+add_executable(app-ex-01-06-assignment-operators main.cpp)

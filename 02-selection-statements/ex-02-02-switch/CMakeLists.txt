@@ -1,0 +1,1 @@
+add_executable(app-ex-02-02-switch main.cpp)

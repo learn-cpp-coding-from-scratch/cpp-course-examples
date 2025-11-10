@@ -7,6 +7,7 @@
 
 struct NaturalNumber{
     unsigned int value = 1;
+
     std::string toString() const;
 
 };

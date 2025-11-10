@@ -1,6 +1,6 @@
-MIT License
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/MIT_Logo_New.svg/330px-MIT_Logo_New.svg.png" width="5%" /> MIT License
 
-Copyright (c) 2025 Olga Kazantseva
+Copyright (c) 2025 [Olga Kazantseva](https://github.com/avelana)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

@@ -1,0 +1,1 @@
+add_executable(app-ex-01-05-arithmetic-operators main.cpp)

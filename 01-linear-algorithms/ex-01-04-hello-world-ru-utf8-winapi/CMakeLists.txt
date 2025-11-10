@@ -1,0 +1,1 @@
+add_executable(app-ex-01-04-hello-utf8-winapi main.cpp)

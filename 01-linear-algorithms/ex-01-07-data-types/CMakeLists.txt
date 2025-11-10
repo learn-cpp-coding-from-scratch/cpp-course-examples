@@ -1,0 +1,1 @@
+add_executable(app-ex-01-07-data-types main.cpp)

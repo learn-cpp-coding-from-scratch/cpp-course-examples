@@ -1,0 +1,1 @@
+add_executable(app-ex-02-03-ternary-operator main.cpp)

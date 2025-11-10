@@ -1,15 +1,15 @@
-include(FetchContent)
-FetchContent_Declare(
-  googletest
-  URL https://github.com/google/googletest/archive/refs/heads/main.zip
-  DOWNLOAD_EXTRACT_TIMESTAMP TRUE
+# Create tests
+add_executable(tests-ex-08-02-str
+    test_str_lib.cpp)
+
+target_link_libraries(tests-ex-08-02-str
+    PRIVATE
+    lib-ex-08-02-str 
+    GTest::gtest_main
+    spdlog::spdlog
 )
-FetchContent_MakeAvailable(googletest)
 
+# Register tests
 include(CTest)
-include(googletest)
-
-add_executable(str_lib_tests test_str_lib.cpp)
-target_link_libraries(str_lib_tests PRIVATE str_lib GTest::gtest_main)
-
-gtest_discover_tests(str_lib_tests) 
+include(GoogleTest)
+gtest_discover_tests(tests-ex-08-02-str)
