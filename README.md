@@ -245,9 +245,3 @@ TEST(ModuleTest, BasicFunctionality) {
    include(GoogleTest)
    gtest_discover_tests(projectapp_tests)
    ```
-
-# CMakeLists.txt в проектах и в папках src / tests
-- Корневой CMakeLists.txt в каждом приложении — подключение subdirectories через `add_subdirectory`.
-- **Модульность:** каждый пример/модуль определяет свои таргеты (`add_library`, `add_executable`) и интерфейсы (include dirs, public/private link).
-- **Переиспользуемость:** корень просто делает `add_subdirectory(example)`, а его `CMakeLists.txt` знает как собрать именно этот пример.
-- **Читаемость и поддержка:** легче найти код, относящийся к конкретному таргету.
