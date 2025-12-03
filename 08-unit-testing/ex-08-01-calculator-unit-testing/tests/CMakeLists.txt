@@ -10,6 +10,4 @@ target_link_libraries(tests-ex-08-01-calculator
 )
 
 # Register tests
-include(CTest)
-include(GoogleTest)
 gtest_discover_tests(tests-ex-08-01-calculator)
