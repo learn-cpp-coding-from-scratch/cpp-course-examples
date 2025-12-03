@@ -1,5 +1,7 @@
-#include <iostream>
 #include <cmath>
+#include <iostream>
+#include <tuple>
+#include <vector>
 
 std::tuple<double, double, double> processDataSet(const std::vector<double>& data) {
     // ----------------------------------------------------------------------
