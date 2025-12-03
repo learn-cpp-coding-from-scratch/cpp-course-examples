@@ -1,12 +1,14 @@
-cmake_minimum_required(VERSION 3.14)
+cmake_minimum_required(VERSION 3.20)
 project(cpp_course_examples)
 
 # Set C++ standard
-set(CMAKE_CXX_STANDARD 20)
+set(CMAKE_CXX_STANDARD 23)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 # Enable testing for the whole repository
-enable_testing()
+enable_testing()              # включает поддержку тестов
+include(CTest)                # подключает модуль CTest
+include(GoogleTest)           # подключает модуль GoogleTest
 
 # Set output directories
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)

@@ -216,32 +216,3 @@ TEST(ModuleTest, BasicFunctionality) {
        ├── test_module1.cpp
        └── test_module2.cpp
    ```
-
-3. **Типичный CMakeLists.txt в проекте ex-***
-
-   ```cmake
-   # ex-projectname/CMakeLists.txt
-   project(ex-projectname)
-   
-   add_subdirectory(src)
-   add_subdirectory(tests)
-   ```
-
-   ```cmake
-   # ex-projectname/src/CMakeLists.txt
-   add_library(projectlib module.cpp)
-   target_include_directories(projectlib PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
-   target_link_libraries(projectlib PRIVATE spdlog::spdlog)
-   
-   add_executable(projectapp main.cpp)
-   target_link_libraries(projectapp PRIVATE projectlib spdlog::spdlog)
-   ```
-
-   ```cmake
-   # ex-projectname/tests/CMakeLists.txt
-   add_executable(projectapp_tests test_module.cpp)
-   target_link_libraries(projectapp_tests PRIVATE projectlib GTest::gtest_main spdlog::spdlog)
-   
-   include(GoogleTest)
-   gtest_discover_tests(projectapp_tests)
-   ```
