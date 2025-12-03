@@ -2,8 +2,6 @@
 # того же файла несколько раз в процессе конфигурации проекта.
 include_guard()
 
-include(FetchContent)
-
 # Переопределяемые версии
 if(NOT DEPS_GTEST_TAG)
     set(DEPS_GTEST_TAG v1.17.0 CACHE STRING "googletest version")
@@ -17,6 +15,11 @@ set(BUILD_GMOCK OFF CACHE BOOL "" FORCE)
 set(INSTALL_GTEST OFF CACHE BOOL "" FORCE)
 set(gtest_force_shared_crt ON CACHE BOOL "" FORCE)
 
+
+# Директива, которая загружает встроенный модуль CMake под 
+# названием FetchContent
+include(FetchContent)
+
 # Git clone вместо ZIP
 #FetchContent_Declare(
 #    googletest
@@ -29,10 +32,6 @@ set(gtest_force_shared_crt ON CACHE BOOL "" FORCE)
 #    GIT_REPOSITORY https://github.com/gabime/spdlog.git
 #    GIT_TAG ${DEPS_SPDLOG_TAG}
 #)
-
-# Директива, которая загружает встроенный модуль CMake под 
-# названием FetchContent
-include(FetchContent)
 
 # Объявляем, где найти зависимость 
 # spdlog - библиотека для логирования (~1 MB),
